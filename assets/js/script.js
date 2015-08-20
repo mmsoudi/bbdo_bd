@@ -31,10 +31,17 @@ var appMaster = {
 			domino('#nav_slide ul li','remove');
 		});
 
+	},
+
+	search_field_toggle : function(){
+		$( ".icon-search" ).click(function() {
+			$(".search-field").toggleClass('show_search');
+		});
 	}
 
 }
 
 $(document).ready(function() {
 	appMaster.nav_mobile();
+	appMaster.search_field_toggle();
 });

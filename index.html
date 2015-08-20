@@ -70,31 +70,44 @@
 
 <body>
 
-	<nav class="navbar navbar-default border_radius_zero hidden-xs hidden-sm">
+	<nav class="navbar navbar-orange border_none border_radius_zero hidden-xs hidden-sm">
 		<div class="">
-			<div class="navbar-header">
-				<a class="navbar-brand" href="#">WebSiteName</a>
+			<div class="navbar-header logo-block">
+				<a class="navbar-brand" href="#"><img src="assets/images/logo/logo.svg" alt="BBDO Logo"></a>
 			</div>
-			<div>
+			
+			<div class="main-nav">
+
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="#">Home</a></li>
-					<li><a href="#">Page 1</a></li>
-					<li><a href="#">Page 2</a></li>
-					<li><a href="#">Page 3</a></li>
+					<li class="active"><a href="#">The Work</a></li>
+					<li><a href="#">News</a></li>
+					<li><a href="#">Knowledge</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Location</a></li>
+				</ul>
+
+
+				<!-- add search form -->
+				<ul class="nav navbar-nav navbar-right margin_right_zero">
+					<li>
+						<form>
+							<div class="search-field">
+								<input type="text" placeholder="Search" class="search-input" value="">
+							</div>
+						</form>
+					</li>
+					<li><span class="icon-search"></span></li>
 				</ul>
 			</div>
 
-			<!-- add search form -->
-            <form class="navbar-form navbar-right" role="search">
-                <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Search this site">
-                    <span class="input-group-btn">
-                        <button type="submit" class="btn btn-default">
-                        <span class="glyphicon glyphicon-search"></span>
-                        </button>
-                    </span>
-                </div>
-            </form>
+			<!-- <div class="search">
+				<form>
+					<div class="search-field">
+						<input type="text" placeholder="Search" class="search-input" value="">
+					</div>
+				</form>
+				<span class="icon-search"></span>
+			</div> -->
 		</div>
 	</nav>
 

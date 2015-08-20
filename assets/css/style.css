@@ -1,3 +1,5 @@
+/*@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,900,400italic);*/
+
 *, *::after, *::before {
 	box-sizing: border-box;
 }
@@ -7,14 +9,126 @@ body{
 	padding-left: 34.5px;
 	margin-right: auto;
 	margin-left: auto;
+	/*font-family: 'Roboto', sans-serif;*/
 }
 
 .border_radius_zero{
 	border-radius: 0 !important;
 }
 
-/*expanding search field*/
+.padding_zero{
+	padding: 0 !important;
+}
 
+.margin_right_zero{
+	margin-right: 0 !important;
+}
+.border_none{
+	border: none;
+}
+/*navbar main*/
+.navbar-orange{
+	background-color: #EF4024;
+	border-color: #EF4024;
+}
+.navbar-brand{
+	padding: 12px 0;
+}
+.logo-block{
+	width: 10%;
+	margin-left: 55px;
+	margin-right: 7px;
+	/*padding-top: 12px;*/
+}
+.logo-block img{
+	width: 100px;
+}
+.main-nav {
+	height: 60px;
+	overflow: hidden;
+	/*width: 75%;*/
+	transition: 0.4s background-color;
+	-webkit-transition: 0.4s background-color;
+}
+.main-nav ul li a {
+	/*font-size: 0.85em;*/
+	/*font-family: 'Roboto', sans-serif;*/
+	letter-spacing: 1px;
+	padding: 0 31px;
+	color: #fff;
+	line-height: 60px;
+	text-decoration: none;
+	display: block;
+	text-transform: capitalize;
+	transition: background-color 0.4s, color 0.2s;
+	-webkit-transition: background-color 0.4s, color 0.4s;
+}
+/*navbar main ends*/
+
+/*expanding search field*/
+.search-field{
+	position: absolute;
+	width: 0%;
+	min-width: 1px;
+	height: 60px;
+	right: -1px;
+	top: 0;
+	overflow-x: hidden;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	-webkit-backface-visibility: hidden;
+	background-color: #8b8b8b;
+}
+
+.search-field.show_search{
+	min-width: 26em ;
+}
+
+.search-field input{
+	position: relative;
+	border: none;
+	outline: none;
+	background-color: #8b8b8b;
+	width: 100%;
+	height: 60px;
+	margin: 0;
+	box-sizing: border-box;
+	z-index: 10;
+	padding: 0;
+	padding-left: 26px;
+	font-family: inherit;
+	font-size: 0.75em;
+	color: #fff;
+	letter-spacing: 1px;
+}
+
+.icon-search{
+	z-index: 90;
+	font-size: 22px;
+	display: block;
+	width: 60px;
+	height: 60px;
+	padding: 0;
+	background-image: url(https://www.bbdo.com/assets/images/search-icon.svg);
+	background-color: #8b8b8b;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	cursor: pointer;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	transform: translateZ(0);
+	-webkit-transform: translateZ(0);
+	-webkit-font-smoothing: antialiased;
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin: 0;
+	line-height: 60px;
+	text-align: center;
+}
 /*expanding search field ends*/
 
 /*mobile nav style starts*/
@@ -29,7 +143,7 @@ body{
 	z-index: 100;
 	position: fixed;
 	left: 0;
-	width: 40%;
+	width: 73%;
 	height: 100vh;
 	background-color: #EF4123;
 	box-shadow: 3px 2px 30px rgba(0, 0, 0, 0.2);
