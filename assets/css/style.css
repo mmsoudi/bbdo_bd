@@ -63,6 +63,9 @@ body{
 	transition: background-color 0.4s, color 0.2s;
 	-webkit-transition: background-color 0.4s, color 0.4s;
 }
+.main-nav ul li a:hover{
+	background-color: rgba(0,0,0,0.15);
+}
 /*navbar main ends*/
 
 /*expanding search field*/
