@@ -66,6 +66,7 @@ body{
 /*navbar main ends*/
 
 /*expanding search field*/
+
 .search-field{
 	position: absolute;
 	width: 0%;
@@ -131,7 +132,53 @@ body{
 }
 /*expanding search field ends*/
 
+
+
 /*mobile nav style starts*/
+#nav-alt ul li a {
+	line-height: 55px;
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	text-transform: capitalize;
+	-webkit-tap-highlight-color: transparent;
+}
+
+#nav-alt ul li a span {
+	width: 70%;
+	float: right;
+}
+
+#nav-alt ul li a .icon {
+	width: 30%;
+	height: 55px;
+	display: block;
+	float: left;
+	background-size: auto 50%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	-webkit-tap-highlight-color: transparent;
+}
+
+#nav-alt ul li a #mobile-home{
+	background-image: url("../images/menu/home-icon.svg");
+}
+
+#nav-alt ul li a #mobile-work{
+	background-image: url("../images/menu/work-icon.svg");
+}
+#nav-alt ul li a #mobile-news{
+	background-image: url("../images/menu/news-icon.svg");
+}
+#nav-alt ul li a #mobile-knowledge{
+	background-image: url("../images/menu/knowledge-icon.svg");
+}
+#nav-alt ul li a #mobile-about{
+	background-image: url("../images/menu/about-icon.svg");
+}
+#nav-alt ul li a #mobile-location{
+	background-image: url("../images/menu/location-icon.svg");
+}
 
 #nav_slide {
 	transition: all ease 0.5s;
@@ -187,6 +234,7 @@ body{
 #nav_slide ul {
 	z-index: 10;
 	list-style: none;
+	margin-top: 30px;
 }
 #nav_slide ul li {
 	position: relative;
@@ -197,11 +245,11 @@ body{
 	transform: translatex(-300px);
 	-webkit-transform: translatex(-300px);
 	-moz-transform: translatex(-300px);
-	margin: 20px 0;
+	/*margin: 20px 0;*/
 }
 
 #nav_slide ul li:hover {
-	background-color: rgba(255, 255, 255, 0.5);
+	background-color: rgba(0, 0, 0, 0.5);
 }
 
 #nav_slide ul li.shown {
