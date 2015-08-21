@@ -514,3 +514,19 @@ header div.burger div {
     z-index: 2;
 }
 /*main content ends*/
+/*soudi css starts*/
+.panel-footer{
+    background-color: #EF4024;
+    border-color: #EF4024;
+    opacity: 1;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    transition: transform 0.5s;
+        height: 60px;
+    width: 100%;
+    background-color: #ef4024;
+    
+    clear: both;
+    border-bottom-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+/*soudi css ends*/
