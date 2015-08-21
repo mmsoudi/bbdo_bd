@@ -288,7 +288,7 @@ body{
 header {
 	width: 100%;
 	height: 300px;
-	position: relative;
+	position: fixed;
 	overflow: hidden;
 	z-index: 0;
 }
@@ -319,3 +319,40 @@ header div.burger div {
 
 
 /*mobile nav styling ends*/
+
+.main-content{
+	height:50em;
+	width: 100%;
+	margin: auto;
+}
+
+#grid{
+	height:100%;
+	width: 100%; 
+}
+
+.grid-item{
+	box-sizing:border-box;
+	border: 2px solid white;
+	float: left;
+	background-color:gray;
+}
+
+.big-square{
+	height: 40%;
+	width: 40%;
+}
+
+.vertical-rectangle{
+	height: 40%;
+	width: 20%;
+}
+
+.horizental-rectangle{
+	height: 20%;
+	width: 40%;
+}
+.small-square{
+	height: 20%;
+	width: 20%;
+}
