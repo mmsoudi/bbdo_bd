@@ -528,6 +528,7 @@ header div.burger div {
     clear: both;
     border-bottom-right-radius: 0px !important;
     border-bottom-left-radius: 0px !important;
+    margin-right: 20px !important;
     padding-top: 2%;
 }
 @font-face {
@@ -551,7 +552,7 @@ header div.burger div {
     line-height: 1;
     float: right;
     color: #fff;
-    margin-right: 20px;
+    margin-left: 12px;
     font-size: large;
     /* Better Font Rendering =========== */
     
